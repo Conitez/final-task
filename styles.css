@@ -1,0 +1,1287 @@
+@import url('https://fonts.googleapis.com/css2?family=Jost&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Jost:wght@600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Jost:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Jost:wght@800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Jost:wght@500&display=swap');
+
+/* @media (max-width: 700px) {
+    
+} */
+
+a {
+    text-decoration: none;
+    color: none;
+}
+
+
+button:hover {
+    background-color: lemonchiffon;
+}
+
+.pmain-12:hover {
+    color: darkcyan;
+}
+
+.pmain-16:hover {
+    color: darkcyan;
+}
+
+.pmain-20:hover {
+    color: darkcyan;
+}
+
+.pmain-23:hover {
+    color: darkcyan;
+}
+
+.sub:hover {
+    color: darkcyan;
+}
+
+.pbut-2:hover {
+    color: darkcyan;
+}
+
+.pbut-1:hover {
+    color: darkcyan;
+}
+
+body {
+    background-color: gray;
+}
+
+.header-h {
+    width: 1440px;
+    height: 100px;
+    background-color: #EEEFF1;
+    margin-left: 350px;
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 0;
+    /* align-items: center; */
+}
+
+.main-block1 {
+    width: 1440px;
+    height: 900px;
+    margin-left: 350px;
+    position: relative;
+    bottom: 125px;
+    background-color: #EEEFF1;
+}
+
+.main-block2 {
+    width: 1440px;
+    height: 200px;
+    margin-left: 350px;
+    background-color: #EEEFF1;
+    position: relative;
+    bottom: 500px;
+}
+
+.main-block3 {
+    width: 1440px;
+    height: 1040px;
+    background-color: white;
+    text-align: center;
+    margin-left: 350px;
+    position: relative;
+    bottom: 1100px;
+}
+
+.main-block4 {
+    width: 1440px;
+    height: 710px;
+    background-color: white;
+    text-align: center;
+    margin-left: 350px;
+    position: relative;
+    bottom: 1100px; 
+}
+
+.main-block5 {
+    width: 1440px;
+    height: 1160px;
+    background-color: white;
+    text-align: center;
+    margin-left: 350px;
+    position: relative;
+    bottom: 1200px;
+}
+
+.footer-block-1 {
+    width: 1440px;
+    height: 1015px;
+    background-color: white;
+    text-align: center;
+    margin-left: 350px;
+    position: relative;
+    bottom: 1200px;
+}
+
+.footer-final {
+    display: flex;
+    position: relative;
+    justify-content: space-around;
+    bottom: 815px;
+}
+
+.big-blocks-1 {
+    display: flex;
+    justify-content: space-around;
+}
+
+.block1 {
+    width: 394px;
+    height: 540px;
+    background-color:white;
+    border-radius: 24px;
+    box-shadow: 0px 5px 5px 0px rgba(0, 0, 0, 0.5);
+    text-align: center;
+}
+
+.stars {
+    display: flex;
+    position: relative;
+    left: 22px;
+    top: 22px;
+}
+
+.stars-2 {
+    display: flex;
+    position: relative;
+    left: 655px;
+    bottom: 295px;
+}
+
+.star-2 {
+    width: 20px;
+    height: 20px;
+}
+
+.stars-3 {
+    display: flex;
+    position: relative;
+    left: 258px;
+    bottom: 38px; 
+}
+
+.stars-4 {
+    display: flex;
+    position: relative;
+    left: 180px;
+    bottom: 40px;
+}
+
+.star-3 {
+    width: 20px;
+    height: 20px;
+}
+
+.star-4 {
+    width: 20px;
+    height: 20px; 
+}
+
+.buttons {
+    display: flex;
+    position: relative;
+    left: 540px;
+    bottom: 130px;
+}
+
+.field {
+    position: relative;
+    bottom: 1000px;
+    left: 400px;
+}
+
+.field-1 {
+    width: 413px;
+    height: 70px;
+    border-radius: 65px;
+    background-color: white;
+    box-shadow: 0px 5px 5px 0px rgba(0, 0, 0, 0.5);
+    border: none;
+    position: relative;
+    left: 135px;
+    top: 5px;
+}
+
+.prhs {
+    display: flex;
+    flex-direction: column;
+}
+
+
+.txt-mg {
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    left: 250px;
+    bottom: 500px;
+}
+
+.txt-mg-2-1 {
+    width: 480px;
+    height: 648px;
+    background-color: white;
+    box-shadow: 0px 5px 5px 0px rgba(0, 0, 0, 0.5);
+    border-radius: 10px;
+    position: relative;
+    left: 210px;
+    bottom: 250px;
+}
+
+.txt-mg-2-2 {
+    width: 480px;
+    height: 648px;
+    background-color: white;
+    box-shadow: 0px 5px 5px 0px rgba(0, 0, 0, 0.5);
+    border-radius: 10px;
+    position: relative;
+    left: 750px;
+    bottom: 900px;
+}
+
+.prhp-text {
+    position: relative;
+    right: 400px;
+    bottom: 120px;
+}
+
+
+.text-butt {
+    position: relative;
+    left: 400px;
+    bottom: 925px;
+}
+
+
+.hrr {
+    background-color: #EEEFF1;
+    width: 1300px;
+    height: 1px;
+    border: none;
+    position: relative;
+    bottom: 850px;
+}
+
+/* Изображения */
+
+/* img {
+    max-width: 100%;
+    height: auto;
+} */
+
+.logo {
+    width: 126px;
+    height: 50px;
+    /* margin-top: 15px;
+    margin-left: 30px;     */
+    position: relative;
+    top: 15px;
+    left: 115px;
+}
+
+
+
+.img-1 {
+    width: 20px;
+    height: 20px;
+}
+
+.img-2 {
+    width: 680px;
+    height: 712px;
+    position: relative;
+    left: 1050px;
+    bottom: 1250px;
+}
+
+.img-3 {
+    width: 140px;
+    height: 113px;
+    position: relative;
+    left: 800px;
+    bottom: 1800px;
+
+}
+
+.img-4 {
+    width: 26.28px;
+    height: 26.3px;
+    padding: 0 5px;
+}
+
+.img-5 {
+    width: 150px;
+    height: 150px;
+    position: relative;
+    left: 105px;
+    bottom: 4px;
+}
+
+.img-6 {
+    width: 150px;
+    height: 150px;
+    position: relative;
+    left: 120px;
+    bottom: 10px;
+}
+
+.img-7 {
+    width: 150px;
+    height: 150px;
+    position: relative;
+    left: 120px;
+    bottom: 10px; 
+}
+
+.img-8 {
+    width: 680px;
+    height: 472px;
+    position: relative;
+    right: 350px;
+}
+
+.img-9 {
+    width: 480px;
+    height: 324px;
+    border: top left radius 15px;
+    border: top right radius 15px;
+    position: relative;
+    top: 5px;
+}
+
+.img-10 {
+    width: 480px;
+    height: 324px;
+    border: top left radius 15px;
+    border: top right radius 15px;
+    position: relative;
+}
+
+.folder {
+    width: 30px;
+    height: 20px;
+}
+
+.tube {
+    width: 25px;
+    height: 25px;
+}
+
+.arrow {
+    width: 30px;
+    height: 30px;
+}
+
+.arrow-2 {
+    width: 30px;
+    height: 30px;
+    position: relative;
+    right: 27px;
+    bottom: 117px;
+
+}
+
+.f {
+    width: 11.67px;
+    height: 22.5px;
+}
+
+.inst {
+    width: 22.5px;
+    height: 22.5px;
+}
+
+.bird {
+    width: 25px;
+    height: 20px;
+}
+
+.in {
+    width: 23px;
+    height: 16px;
+}
+
+.stick {
+    width: 18px;
+    height: 35px;
+    position: relative;
+    left: 425px;
+    top: 20px;
+}
+
+.logo2 {
+    width: 307px;
+    height: 122px;
+    position: relative;
+    bottom: 120px;
+    right: 480px;
+}
+
+/* Навигация */
+
+.nav {
+    margin-top: 35px;
+    display: flex;
+    justify-content: space-around;
+    position: relative;
+    left: 445px;
+}
+
+.nav1 {
+    font-family: "Jost", sans-serif;
+    font-size: 15px;
+    font-weight: 500;
+    font-style: normal;
+    color: #1B1B1D;
+    list-style: none;
+    padding: 0 15px;
+    
+}
+
+/* Кнопки */
+
+.custom-button-1 {
+    width: 56px;
+    height: 56px;
+    border-radius: 50px;
+    background-color: white;
+    border: none;
+    margin-top: 15px;
+    margin-left: 425px;
+    position: relative;
+    left: 15px;
+}
+
+.custom-button-2 {
+    background-color: #1B1B1D;
+    width: 208px;
+    height: 56px;
+    border-radius: 63px;
+    border: none;
+    margin-top: 15px;
+    margin-right: 50px;
+}
+
+.custom-button-3 {
+    width: 225px;
+    height: 70px;
+    border-radius: 126px;
+    border: none;
+    background-color: #1B1B1D;
+    position: relative;
+    left: 90px;
+    top: 20px;
+}
+
+.custom-button-4 {
+    width: 272px;
+    height: 140px;
+    background-color: white;
+    border-radius: 24px;
+    border: none;
+    position: relative;
+    left: 200px;
+    bottom: 1450px;
+}
+
+.custom-button-5 {
+    width: 225px;
+    height: 60px;
+    border-radius: 126px;
+    border: none;
+    background-color: #1B1B1D;
+    position: relative;
+    top: 90px;
+    right: 80px;
+}
+
+.custom-button-6 {
+    width: 225px;
+    height: 60px;
+    border-radius: 126px;
+    border: none;
+    background-color: #1B1B1D;
+    position: relative;
+    top: 90px;
+    right: 68px;
+}
+
+.custom-button-7 {
+    width: 225px;
+    height: 60px;
+    border-radius: 126px;
+    border: none;
+    background-color: #1B1B1D;
+    position: relative;
+    top: 90px;
+    right: 68px;
+}
+
+.custom-button-8 {
+    width: 190px;
+    height: 70px;
+    border-radius: 126px;
+    border: none;
+    background-color: #1B1B1D;
+    position: relative;
+    bottom: 360px;
+    left: 550px;
+}
+
+.custom-button-9 {
+    width: 60px;
+    height: 60px;
+    border-radius: 50px;
+    background-color: white;
+    border: none;
+    box-shadow: 0px 5px 5px 0px rgba(0, 0, 0, 0.5);
+    position: relative;
+    bottom: 1250px;
+    right: 550px;
+}
+
+.custom-button-10 {
+    width: 60px;
+    height: 60px;
+    border-radius: 50px;
+    background-color: white;
+    border: none;
+    box-shadow: 0px 5px 5px 0px rgba(0, 0, 0, 0.5);
+    position: relative;
+    bottom: 1250px;
+    left: 550px;
+}
+
+.custom-button-11 {
+    width: 60px;
+    height: 60px;
+    border-radius: 50px;
+    border: none;
+    background-color: white;
+    box-shadow: 0px 5px 5px 0px rgba(0, 0, 0, 0.5);
+    position: relative;
+    bottom:10px;
+    right: 145px;
+
+}
+
+.custom-button-12 {
+    width: 60px;
+    height: 60px;
+    border-radius: 50px;
+    border: none;
+    background-color: white;
+    box-shadow: 0px 5px 5px 0px rgba(0, 0, 0, 0.5);
+    position: relative;
+    bottom: 70px;
+    right: 140px;
+}
+
+.custom-button-13 {
+    width: 60px;
+    height: 60px;
+    border-radius: 50px;
+    border: none;
+    background-color: white;
+    box-shadow: 0px 5px 5px 0px rgba(0, 0, 0, 0.5);
+    /* position: relative; */
+    margin: 0 10px;
+    
+}
+
+.custom-button-14 {
+    width: 173px;
+    height: 70px;
+    border-radius: 126px;
+    background-color: #1B1B1D;
+    border: none;
+    position: relative;
+    top: 110px;
+    right: 280px;
+}
+
+.pbut-1 {
+    text-transform: uppercase;
+    color: white;
+    font-family: 'Jost';
+    font-weight: 'Medium';
+    font-size: 15px;
+}
+
+.pbut-2 {
+    text-transform: uppercase;
+    font-family: "Jost", sans-serif;
+    font-size: 18px;
+    font-weight: 500;
+    font-style: normal;
+    color: white;
+
+}
+
+.pmain-1 {
+    font-family: "Jost", sans-serif;
+    font-size: 124px;
+    font-weight: 800;
+    font-style: normal;
+    color: #1B1B1D;
+    margin-left: 100px;
+}
+
+.pmain-2 {
+    font-family: "Jost", sans-serif;
+    font-size: 24px;
+    font-weight: 400;
+    font-style: normal;
+    color: #64646A;
+    margin-left: 100px;
+    
+}
+
+.pmain-3 {
+    text-transform: uppercase;
+    text-decoration: underline;
+    font-family: "Jost", sans-serif;
+    font-size: 18px;
+    font-weight: 500;
+    font-style: normal;
+    color: #1B1B1D; 
+    position: relative;
+    left: 350px;
+    bottom: 40px;
+}
+
+.pmain-4 {
+    font-family: "Jost", sans-serif;
+    font-size: 19px;
+    font-weight: 400;
+    font-style: normal;
+    color: #64646A;
+    position: relative;
+    right: 12px;
+    top: 15px;
+}
+
+.pmain-5 {
+    font-family: "Jost", sans-serif;
+    font-size: 19px;
+    font-weight: 400;
+    font-style: normal;
+    color: #64646A;
+    position: relative;
+    left: 8px;
+}
+
+.pmain-6 {
+    font-family: "Jost", sans-serif;
+    font-size: 64px;
+    font-weight: 800;
+    font-style: normal;
+    color: #1B1B1D;
+    position: relative;
+    top: 55px;
+} 
+
+.pmain-7 {
+    font-family: "Jost", sans-serif;
+    font-size: 24px;
+    font-weight: 400;
+    font-style: normal;
+    color: #64646A;
+    position: relative;
+    bottom: 17px; 
+}
+
+.pmain-8 {
+    font-family: "Jost", sans-serif;
+    font-size: 24px;
+    font-weight: 400;
+    font-style: normal;
+    color: #64646A;
+    position: relative;
+    bottom: 65px;
+}
+
+.pmain-9 {
+    font-family: "Jost", sans-serif;
+    font-size: 36px;
+    font-weight: 600;
+    font-style: normal;
+    color: #1B1B1D;
+    position: relative;
+    right: 50px;
+}
+
+.pmain-10 {
+    font-family: "Jost", sans-serif;
+    font-size: 24px;
+    font-weight: 400;
+    font-style: normal;
+    color: #64646A;
+    position: relative;
+    right: 5px;
+    bottom: 30px;
+}
+
+.pmain-11 {
+    font-family: "Jost", sans-serif;
+    font-size: 24px;
+    font-weight: 400;
+    font-style: normal;
+    color: #64646A;
+    position: relative;
+    right: 68px;
+    bottom: 50px;
+
+}
+
+.pmain-12 {
+    font-family: "Jost", sans-serif;
+    font-size: 18px;
+    font-weight: 500;
+    font-style: normal;
+    text-transform: uppercase;
+    color: white;
+}
+
+.pmain-13 {
+    font-family: "Jost", sans-serif;
+    font-size: 36px;
+    font-weight: 600;
+    font-style: normal;
+    color: #1B1B1D;
+    position: relative;
+    right: 87px;
+}
+
+.pmain-14 {
+    font-family: "Jost", sans-serif;
+    font-size: 24px;
+    font-weight: 400;
+    font-style: normal;
+    color: #64646A;
+    position: relative;
+    right: 5px;
+    bottom: 30px;
+}
+
+.pmain-15 {
+    font-family: "Jost", sans-serif;
+    font-size: 24px;
+    font-weight: 400;
+    font-style: normal;
+    color: #64646A;
+    position: relative;
+    right: 62px;
+    bottom: 50px;
+}
+
+.pmain-16 {
+    font-family: "Jost", sans-serif;
+    font-size: 18px;
+    font-weight: 500;
+    font-style: normal;
+    text-transform: uppercase;
+    color: white;
+}
+
+.pmain-17 {
+    font-family: "Jost", sans-serif;
+    font-size: 36px;
+    font-weight: 600;
+    font-style: normal;
+    color: #1B1B1D;
+    position: relative;
+    right: 70px;
+}
+
+.pmain-18 {
+    font-family: "Jost", sans-serif;
+    font-size: 24px;
+    font-weight: 400;
+    font-style: normal;
+    color: #64646A;
+    position: relative;
+    right: 14px;
+    bottom: 30px;
+}
+
+.pmain-19 {
+    font-family: "Jost", sans-serif;
+    font-size: 24px;
+    font-weight: 400;
+    font-style: normal;
+    color: #64646A;
+    position: relative;
+    right: 78px;
+    bottom: 50px;
+}
+
+.pmain-20 {
+    font-family: "Jost", sans-serif;
+    font-size: 18px;
+    font-weight: 500;
+    font-style: normal;
+    text-transform: uppercase;
+    color: white;
+}
+
+.pmain-21 {
+    font-family: "Jost", sans-serif;
+    font-size: 64px;
+    font-weight: 800;
+    font-style: normal;
+    color: #1B1B1D;
+    position: relative; 
+}
+
+.pmain-21-1 {
+    font-family: "Jost", sans-serif;
+    font-size: 64px;
+    font-weight: 800;
+    font-style: normal;
+    color: #1B1B1D;
+    position: relative;
+    bottom: 150px;
+    left: 85px;
+}
+
+
+
+.pmain-22-1 {
+    font-family: "Jost", sans-serif;
+    font-size: 24px;
+    font-weight: 400;
+    font-style: normal;
+    color: #64646A;
+    position: relative;
+    bottom: 245px;
+    left: 70px;
+}
+
+.pmain-22-2 {
+    font-family: "Jost", sans-serif;
+    font-size: 24px;
+    font-weight: 400;
+    font-style: normal;
+    color: #64646A;
+    position: relative;
+    bottom: 295px;
+    left: 78px;
+}
+
+.pmain-22-3 {
+    font-family: "Jost", sans-serif;
+    font-size: 24px;
+    font-weight: 400;
+    font-style: normal;
+    color: #64646A;
+    position: relative;
+    bottom: 345px;
+    left: 42px;
+}
+
+.pmain-22-4 {
+    font-family: "Jost", sans-serif;
+    font-size: 24px;
+    font-weight: 400;
+    font-style: normal;
+    color: #64646A;
+    position: relative;
+    bottom: 400px;
+    right: 18px;
+}
+
+.pmain-23 {
+    font-family: "Jost", sans-serif;
+    font-size: 18px;
+    font-weight: 500;
+    font-style: normal;
+    text-transform: uppercase;
+    color: white;
+}
+
+.pmain-24 {
+    font-family: "Jost", sans-serif;
+    font-size: 64px;
+    font-weight: 800;
+    font-style: normal;
+    color: #1B1B1D;
+    position: relative;
+    bottom: 80px;
+}
+
+.pmain-24-1 {
+    font-family: "Jost", sans-serif;
+    font-size: 64px;
+    font-weight: 800;
+    font-style: normal;
+    color: #1B1B1D;
+    position: relative;
+    bottom: 160px;
+    left: 5px;
+}
+
+.pmain-25 {
+    font-family: "Jost", sans-serif;
+    font-size: 40px;
+    color: #1B1B1D;
+    font-weight: 600;
+    font-style: normal;
+    position: relative;
+    bottom: 190px;
+    right: 125px;
+}
+
+.pmain-26 {
+    font-family: "Jost", sans-serif;
+    font-size: 20px;
+    font-weight: 400;
+    font-style: normal;
+    color: #64646A;
+    position: relative;
+    left: 40px;
+    bottom: 305px;
+}
+
+.pmain-27 {
+    font-family: "Jost", sans-serif;
+    font-size: 24px;
+    color: #1B1B1D;
+    font-weight: 600;
+    font-style: normal;
+    position: relative;
+    right: 100px;
+    top: 10px;
+}
+
+.pmain-28-1 {
+    font-family: "Jost", sans-serif;
+    font-size: 20px;
+    font-weight: 400;
+    font-style: normal;
+    color: #1B1B1D;
+    position: relative;
+    bottom: 30px;
+    right: 15px;
+}
+
+.pmain-28-2 {
+    font-family: "Jost", sans-serif;
+    font-size: 20px;
+    font-weight: 400;
+    font-style: normal;
+    color: #1B1B1D;
+    position: relative;
+    bottom: 50px;
+    right: 35px;
+}
+
+.pmain-28-3 {
+    font-family: "Jost", sans-serif;
+    font-size: 20px;
+    font-weight: 400;
+    font-style: normal;
+    color: #1B1B1D;
+    position: relative;
+    bottom: 70px;
+    right: 20px;
+}
+
+.pmain-28-4 {
+    font-family: "Jost", sans-serif;
+    font-size: 20px;
+    font-weight: 400;
+    font-style: normal;
+    color: #1B1B1D;
+    position: relative;
+    bottom: 90px;
+    right: 25px;
+}
+
+.pmain-28-5 {
+    font-family: "Jost", sans-serif;
+    font-size: 20px;
+    font-weight: 400;
+    font-style: normal;
+    color: #1B1B1D;
+    position: relative;
+    bottom: 110px;
+    right: 34px;
+}
+
+.pmain-28-6 {
+    font-family: "Jost", sans-serif;
+    font-size: 20px;
+    font-weight: 400;
+    font-style: normal;
+    color: #1B1B1D;
+    position: relative;
+    bottom: 130px;
+    right: 43px;
+}
+
+.pmain-29 {
+    font-family: "Jost", sans-serif;
+    font-size: 24px;
+    color: #1B1B1D;
+    font-weight: 600;
+    font-style: normal;
+    position: relative;
+    right: 140px;
+    top: 10px;
+}
+
+.pmain-29-1 {
+    font-family: "Jost", sans-serif;
+    font-size: 20px;
+    font-weight: 400;
+    font-style: normal;
+    color: #1B1B1D;
+    position: relative;
+    bottom: 30px;
+    right: 15px;
+}
+
+.pmain-29-2 {
+    font-family: "Jost", sans-serif;
+    font-size: 20px;
+    font-weight: 400;
+    font-style: normal;
+    color: #1B1B1D;
+    position: relative;
+    bottom: 50px;
+    right: 35px;
+}
+
+.pmain-29-3 {
+    font-family: "Jost", sans-serif;
+    font-size: 20px;
+    font-weight: 400;
+    font-style: normal;
+    color: #1B1B1D;
+    position: relative;
+    bottom: 70px;
+    right: 20px;
+}
+
+.pmain-29-4 {
+    font-family: "Jost", sans-serif;
+    font-size: 20px;
+    font-weight: 400;
+    font-style: normal;
+    color: #1B1B1D;
+    position: relative;
+    bottom: 90px;
+    right: 25px;
+}
+
+.pmain-29-5 {
+    font-family: "Jost", sans-serif;
+    font-size: 20px;
+    font-weight: 400;
+    font-style: normal;
+    color: #1B1B1D;
+    position: relative;
+    bottom: 110px;
+    right: 34px;
+}
+
+.pmain-29-6 {
+    font-family: "Jost", sans-serif;
+    font-size: 20px;
+    font-weight: 400;
+    font-style: normal;
+    color: #1B1B1D;
+    position: relative;
+    bottom: 130px;
+    right: 43px;
+}
+
+.foot-p1 {
+    font-family: "Jost", sans-serif;
+    font-size: 30px;
+    font-weight: 400;
+    font-style: normal;
+    color: #64646A;
+    position: relative;
+    right: 425px;
+    bottom: 125px;
+}
+
+.foot-p2 {
+    font-family: "Jost", sans-serif;
+    font-size: 30px;
+    font-weight: 400;
+    font-style: normal;
+    color: #64646A;
+    position: relative;
+    right: 360px;
+    bottom: 155px;
+}
+
+.foot-p3 {
+    font-family: "Jost", sans-serif;
+    font-size: 30px;
+    font-weight: 400;
+    font-style: normal;
+    color: #64646A;
+    position: relative;
+    right: 393px;
+    bottom: 185px;
+}
+
+.foot-p4 {
+    font-family: "Jost", sans-serif;
+    font-size: 30px;
+    font-weight: 400;
+    font-style: normal;
+    color: #64646A;
+    position: relative;
+    right: 357px;
+    bottom: 215px;
+}
+
+.foot-p5 {
+    font-family: "Jost", sans-serif;
+    font-size: 40px;
+    font-weight: 800;
+    font-style: normal;
+    color: #1B1B1D;
+    position: relative;
+    right: 90px;
+    bottom: 45px;
+}
+
+.foot-p6 {
+    font-family: "Jost", sans-serif;
+    font-size: 30px;
+    color: #64646A;
+    font-weight: 400;
+    font-style: normal;
+    position: relative;
+    left: 10px;
+    bottom: 55px;
+}
+
+.foot-p7 {
+    font-family: "Jost", sans-serif;
+    font-size: 30px;
+    color: #64646A;
+    font-weight: 400;
+    font-style: normal;
+    position: relative;
+    left: 44px;
+    bottom: 80px;
+}
+
+.but-p {
+    font-family: "Jost", sans-serif;
+    font-size: 18px;
+    color: #1B1B1D;
+    font-weight: 600;
+    font-style: normal;
+    text-transform: uppercase;
+    position: relative;
+    bottom: 70px;
+    right: 140px;
+}
+
+.prhp-but {
+    font-family: "Jost", sans-serif;
+    font-size: 40px;
+    color: #1B1B1D;
+    font-weight: 800;
+    font-style: normal;
+}
+
+.prhp-but2 {
+    font-family: "Jost", sans-serif;
+    font-size: 30px;
+    font-weight: 400;
+    font-style: normal;
+    color: #64646A;
+    position: relative;
+    left: 50px;
+    bottom: 90px;
+}
+
+.prhp-but3 {
+    font-family: "Jost", sans-serif;
+    font-size: 30px;
+    font-weight: 400;
+    font-style: normal;
+    color: #64646A;
+    position: relative;
+    left: 40px;
+    bottom: 145px; 
+}
+
+.prhs2 {
+    font-family: "Jost", sans-serif;
+    font-size: 40px;
+    color: #1B1B1D;
+    font-weight: 800;
+    font-style: normal;
+}
+
+.em {
+    font-family: "Jost", sans-serif;
+    font-size: 22px;
+    color: #64646A;
+    font-weight: 400;
+    font-style: normal;
+    position: relative;
+    bottom: 70px;
+    right: 110px;
+}
+
+.sub {
+    font-family: "Jost", sans-serif;
+    font-size: 18px;
+    text-transform: uppercase;
+    color: white;
+    font-weight: 500;
+    font-style: normal;
+}
+
+
+.foot-fin {
+    font-family: "Jost", sans-serif;
+    font-size: 22px;
+    color: #64646A;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.foot-fin-1 {
+    font-family: "Jost", sans-serif;
+    font-size: 22px;
+    color: #1B1B1D;
+    font-weight: 500;
+    font-style: normal;
+    position: relative;
+    right: 150px;
+}
+
+.foot-fin-2-1 {
+    font-family: "Jost", sans-serif;
+    font-size: 22px;
+    color: #64646A;
+    font-weight: 400;
+    font-style: normal;
+    position: relative;
+    left: 110px;
+}
+
+.foot-fin-2-2{
+    font-family: "Jost", sans-serif;
+    font-size: 22px;
+    color: #64646A;
+    font-weight: 400;
+    font-style: normal;
+}
